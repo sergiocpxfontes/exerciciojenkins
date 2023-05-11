@@ -1,4 +1,5 @@
-﻿internal class Program
+﻿using Lib;
+internal class Program
 {
     private static void Main(string[] args)
     {
