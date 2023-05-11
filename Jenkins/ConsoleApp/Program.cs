@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        if(args!=null)
+        {
+            Console.WriteLine(Lib.Saudacao.Cumprimentar(args[0], DateTime.Now));
+        }
+        else
+        {
+            Console.WriteLine("Tem que indicar um argumento");
+        }
+        
+    }
+}
